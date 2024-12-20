@@ -9,6 +9,9 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
+    'eslint:recommended', // 기본 ESLint 권장 설정
+    'plugin:import/errors', // import 관련 오류 처리
+    'plugin:import/warnings', // import 관련 경고 처리
   ],
   root: true,
   env: {
